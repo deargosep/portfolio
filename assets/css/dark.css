@@ -5,7 +5,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .clean-pricing-item, .modal-content, .card, .navbar, .dropdown-menu, .bg-light {
+  .clean-pricing-item, .modal-content, .dropdown-menu, .bg-light {
     background-color: #4b5162!important;
   }
 }
@@ -166,5 +166,15 @@
   .border {
     /*border-color: #dedede!important;*/
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background: rgba(56,60,74,0.5);
+  }
+}
+
+.card {
+  background: #383c4a!important;
 }
 
