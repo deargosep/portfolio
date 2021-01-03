@@ -1,7 +1,7 @@
 .card {
   border: 0!important;
   border-radius: 15px;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  /*box-shadow: initial;*/
   background-color: white;
 }
 
@@ -22,5 +22,13 @@ h1 {
 h1 {
   word-break: break-word!important;
   overflow-wrap: break-word!important;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.carousel-caption {
+  color: black;
 }
 
