@@ -174,7 +174,9 @@
   }
 }
 
-.card {
-  background: #383c4a!important;
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: #383c4a!important;
+  }
 }
 
