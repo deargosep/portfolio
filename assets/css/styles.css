@@ -14,3 +14,7 @@ h1 {
   font-weight: 900;
 }
 
+.navbar {
+  backdrop-filter: blur(8px);
+}
+
