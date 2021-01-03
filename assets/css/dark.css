@@ -1,0 +1,170 @@
+@media (prefers-color-scheme: dark) {
+  html, body, .pagemodal .modal-body {
+    background-color: #383c4a!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .clean-pricing-item, .modal-content, .card, .navbar, .dropdown-menu, .bg-light {
+    background-color: #4b5162!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .list-group-item, .btn-light, select, textarea {
+    background: #4b5162!important;
+    color: white!important;
+    border: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  h1, h2, h3, h2, h4, h5, h6, p, .list-group-item, .open-menu, label, span, input, textarea, .beautyheading, .dropdown-item, .nav-link {
+    color: white!important;
+    /*opacity: 0.9;*/
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar-brand {
+    color: white!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .sidebar {
+    background: #4b5162!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .swiper-button-prev, .swiper-button-next, #arrowdown, .icon-arrow-down {
+    filter: invert(100%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  input {
+    background: #383c4a!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .overlay .active {
+    opacity: 0.6!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  input, select, textarea {
+    border: hidden!important;
+    border: none!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .modal-footer {
+    border-top: 1px solid #000000!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn-light {
+    border: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #indexhtml li {
+    border: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  li {
+    border-right: none!important;
+    border-left: none!important;
+    border-bottom: none!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #logao {
+    /*color: white!important;*/
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #longcat1, #tacgnol1, .easterlabels, .longcat__torso {
+    background-color: transparent!important;
+    filter: invert(0%)!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #devmodal p, #exit {
+    color: white!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  ul::-webkit-scrollbar-track, .modal-body::-webkit-scrollbar-track, .modal::-webkit-scrollbar-track, body::-webkit-scrollbar-track, li::-webkit-scrollbar-track, textarea::-webkit-scrollbar-track, .landing-card::-webkit-scrollbar-track {
+    background: #454956ca;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body::-webkit-scrollbar-thumb, ul::-webkit-scrollbar-thumb, li::-webkit-scrollbar-thumb, .modal-body::-webkit-scrollbar-thumb, .modal::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb, .landing-card::-webkit-scrollbar-thumb {
+    background: #007aff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #showrole {
+    color: white!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #overlay {
+    background: #383c4a;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  hr {
+    filter: invert(200%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #landing-section, #info {
+    /*text-shadow: 2px 0px 15px #ffffff;*/
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dropdown {
+    filter: invert(200%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .uides {
+    color: #007aff;
+    /*text-shadow: 0px 0px 0px;*/
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .text-muted {
+    color: #dedede!important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .border {
+    /*border-color: #dedede!important;*/
+  }
+}
+
