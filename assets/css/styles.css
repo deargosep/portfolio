@@ -42,3 +42,7 @@ h1 {
   }
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
