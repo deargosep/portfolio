@@ -34,8 +34,10 @@
                 emailjs.sendForm('contact_service', 'contact_form', this)
                     .then(function() {
                         console.log('SUCCESS!');
+                    alert('Сообщение отправлено.');
                     }, function(error) {
                         console.log('FAILED...', error);
+                    alert('Не удалось отправить сообщение. Попробуйте позже.');
                     });
             });
         }
