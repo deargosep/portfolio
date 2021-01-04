@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </head>
 
 <body style="font-family: Montserrat, sans-serif;"><script type="text/javascript">
@@ -108,10 +109,10 @@
                 <h1 class="text-center" style="padding-top: 15px;padding-bottom: 15px;">Связь<br></h1>
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 justify-content-center align-items-center">
                     <div class="col">
-                        <form id="contact-form" method="post">
-                            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Ваше имя" required=""></div>
-                            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Ваша почта" required=""></div>
-                            <div class="form-group"><textarea class="form-control" name="message" placeholder="Текст сообщения" rows="7"></textarea></div>
+                        <form id="contact-form"><input class="form-control" type="hidden" name="contact_number">
+                            <div class="form-group"><input class="form-control" type="text" name="user_name" placeholder="Ваше имя" required=""></div>
+                            <div class="form-group"><input class="form-control is-invalid" type="email" name="user_email" placeholder="Ваша почта" required=""></div>
+                            <div class="form-group"><textarea class="form-control" name="message" placeholder="Текст сообщения" rows="7" required=""></textarea></div>
                             <div class="form-group"><button class="btn btn-primary" type="submit">Отправить</button></div>
                         </form>
                     </div>
@@ -135,7 +136,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="https://deargosep.github.io/mediastorage/smooth_scroll.js"></script>
 </body>
 
