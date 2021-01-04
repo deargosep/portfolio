@@ -18,7 +18,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
 </head>
 
-<body style="font-family: Montserrat, sans-serif;">
+<body style="font-family: Montserrat, sans-serif;"><script type="text/javascript">
+   (function(){
+      emailjs.init("user_B8coBP9jUuD4iiacMpBXs");
+   })();
+</script>
+<script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
     <nav class="navbar navbar-light navbar-expand-md sticky-top" style="background: rgba(255,255,255,0.5);">
         <div class="container"><a class="navbar-brand mr-auto" href="#"><img class="img-fluid" src="assets/img/Frame%201.png" width="60px"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border-style: none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
@@ -88,8 +108,10 @@
                 <h1 class="text-center" style="padding-top: 15px;padding-bottom: 15px;">Связь<br></h1>
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 justify-content-center align-items-center">
                     <div class="col">
-                        <form method="post" action="mailto:mchbtfl@gmail.com">
-                            <div class="form-group"><label>Введите текст сообщения:</label><textarea class="form-control" placeholder="Ваше сообщение" rows="7" required=""></textarea></div>
+                        <form id="contact-form" method="post">
+                            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Ваше имя" required=""></div>
+                            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Ваша почта" required=""></div>
+                            <div class="form-group"><textarea class="form-control" name="message" placeholder="Текст сообщения" rows="7"></textarea></div>
                             <div class="form-group"><button class="btn btn-primary" type="submit">Отправить</button></div>
                         </form>
                     </div>
@@ -113,6 +135,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="https://deargosep.github.io/mediastorage/smooth_scroll.js"></script>
 </body>
 

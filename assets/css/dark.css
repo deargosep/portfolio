@@ -11,7 +11,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .list-group-item, .btn-light, select, textarea {
+  .list-group-item, .btn-light, select, textarea, input {
     background: #4b5162!important;
     color: white!important;
     border: none;
@@ -40,12 +40,6 @@
 @media (prefers-color-scheme: dark) {
   .swiper-button-prev, .swiper-button-next, #arrowdown, .icon-arrow-down {
     filter: invert(100%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  input {
-    background: #383c4a!important;
   }
 }
 
