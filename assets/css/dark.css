@@ -174,3 +174,9 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .navbar-toggler {
+    filter: invert(200%);
+  }
+}
+
